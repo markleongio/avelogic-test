@@ -1,0 +1,15 @@
+# robots.txt — Avelogic SmartHRMS Website
+# https://www.avelogic.com
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# Point crawlers to sitemap
+Sitemap: https://www.avelogic.com/sitemap.xml
+
+# Crawl delay (be polite to bots)
+Crawl-delay: 10
